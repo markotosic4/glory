@@ -68,3 +68,19 @@
         width: 100%;
     }
 }
+
+@media only screen and (max-width: 390px) {
+   
+    .btnHero{
+        margin-bottom: 50px;
+        color: black;
+   
+    }
+
+    .logo {
+        margin-top: 80px;
+    
+    }
+
+
+}

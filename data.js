@@ -1,56 +1,56 @@
-let ruza = {
-    label: "ruza",
-    naziv: "Ruže",
-    cena: 150,
-    img: "photos/ruza.png",
+let rose = {
+    label: "rose",
+    name: "Ruže",
+    price: 150,
+    img: "photos/rose.png",
     src: ""
 };
 
-let ljiljan = {
-    label: "ljiljan",
-    naziv: "Ljiljani",
-    cena: 120,
-    img: "photos/ljiljan.png",
+let lily = {
+    label: "lily",
+    name: "Ljiljani",
+    price: 120,
+    img: "photos/lily.png",
 };
 let gerber = {
     label: "gerber",
-    naziv: "Gerberi",
-    cena: 70,
+    name: "Gerberi",
+    price: 70,
     img: "photos/gerber.png",
 }
-let cveće = [ruza, ljiljan,gerber];
+export let flowers = [rose, lily,gerber];
 
 
-let bombonjera = {
-    naziv: "Bombonjera",
-    cena: 500,
-    img: "photos/bombonjera.png",
+let boxOfChocolates = {
+    name: "Bombonjera",
+    price: 500,
+    img: "photos/boxOfChocolates.png",
     klasa: "b"
 }
 
-let cokolada = {
-    naziv: "Čokolada",
-    cena: 500,
-    img: "photos/cokolada.png",
+let chocolate = {
+    name: "Čokolada",
+    price: 500,
+    img: "photos/chocolate.png",
     klasa:"c"
 }
 
-let sampanjac = {
-    naziv: "Šampanjac",
-    cena: 500,
-    img: "photos/sampanjac.png",
+let champagne = {
+    name: "Šampanjac",
+    price: 500,
+    img: "photos/champagne.png",
     klasa:"s"
 }
 
-let dodatniPokloni = [bombonjera,cokolada, sampanjac];
+export let gifts = [boxOfChocolates,chocolate, champagne];
 
-let placanje = {
-    kes: {
-        img: "photos/kes.png",
+export let payment = {
+    cash: {
+        img: "photos/cash.png",
         label: "keš"
     }, 
-    kartica: {
-        img: "photos/kartica.png",
+    card: {
+        img: "photos/card.png",
         label: "kartica"
     }
 }
